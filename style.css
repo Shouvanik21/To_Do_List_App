@@ -13,10 +13,10 @@
     padding: 10px;
 }
 
-img{
+/* img{
     height: 50px;
     width: 50px;
-}
+} */
 
 .to-do-app{
     width: 100%;
@@ -25,5 +25,16 @@ img{
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
+}
 
+.to-do-app h2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #002765;
+}
+
+.to-do-app h2 img{
+    width: 30px;
+    margin-left: 10px;
 }
