@@ -10,9 +10,9 @@ function addTask(){
         let li=document.createElement("li")
         li.innerHTML=inputBox.value
         listContainer.appendChild(li)
-        let span=document.createElement('span')
+        let span=document.createElement("span")
         span.innerHTML="\u00d7"
-        listContainer.appendChild(span)
+        li.appendChild(span)
     }
     inputBox.value=""
 }
