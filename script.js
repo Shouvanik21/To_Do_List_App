@@ -1,10 +1,14 @@
 const inputBox=document.getElementById('input-box');
 const listContainer=document.getElementById('list-container');
-
+const todoapp=document.getElementById('to-do-app');
 
 function addTask(){
     if(inputBox.value===''){
         alert("You must write something");
+    }
+    if(todoapp.offsetHeight>window.innerHeight*0.8){
+        alert("Please complete the existing tasks to add more");
+        return;
     }
     else{
         let li=document.createElement("li");
